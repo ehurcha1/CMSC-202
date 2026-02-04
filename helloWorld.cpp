@@ -9,11 +9,12 @@ int main()
     std::cout << numNumNum;
     std::cout << "\n";
     bool tof;
-    if (numNumNum == 45)
+    if (numNumNum == 45) {
         tof = true;
-    else
+        std::cout << "true\n";
+    } else {
         tof = false;
-    std::cout << tof;
-    std::cout << "\n";
+        std::cout << "false\n";
+    }    
     return 0;
 }
