@@ -34,7 +34,7 @@ Print the number of each coin. */
 
 int main()
 {   
-    int priceCents, paidCents, changeCents, quarters, dimes, nickels, pennies;
+    int priceCents=0, paidCents=0, changeCents=0, quarters=0, dimes=0, nickels=0, pennies=0;
     
     std::cout << "Welcome! Please choose a beverage!\n";
     
