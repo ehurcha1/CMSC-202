@@ -44,7 +44,7 @@ int main()
     std::cout << "How many cents are you using to pay?\n";
     std::cin >> paidCents;
 
-    if (paidCents > priceCents) {
+    if (paidCents < priceCents) {
         std::cout << "Insufficient payment.\n";
         std::cout << priceCents-paidCents << " more cents are needed.\n";
     } else {
