@@ -7,6 +7,6 @@ int main()
     int numNum = 9;
     int numNumNum = num * numNum;
     std::cout << numNumNum;
-    std::cout << "";
+    std::cout << "\n";
     return 0;
 }
