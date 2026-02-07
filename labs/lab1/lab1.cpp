@@ -24,6 +24,8 @@ int main() {
             << "2. Learn about Squirtle" << endl
             << "3. Learn about Charmander" << endl;
         cin >> teamSelect;
+    }else{
+        return 0;
     }
     while (teamNum != 0){
         bool team1=true;
