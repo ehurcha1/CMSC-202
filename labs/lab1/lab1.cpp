@@ -9,7 +9,7 @@ int main() {
     int teamNum=3;
 
     cout << "What is your name?" << endl;
-    cin >> name;
+    getline(cin, name);
     
     cout << "What is your age?" << endl;
     cin >> age;
