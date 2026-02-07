@@ -34,7 +34,7 @@ int main() {
     while (teamNum >= 1 && teamNum <= 3){
         if (teamSelect == 1 && team1 == true){
             team1 = false;
-            teamNum = 0;
+            teamNum -= 1;
             cout << "It carries a seed on its back right from birth. By" << endl
                 << "soaking up the sun's rays, the seed grows" << endl
                 << "progressively larger. It is filled with nutrients." << endl
@@ -42,7 +42,7 @@ int main() {
                 << "uses this to grow while it is young." << endl;
         }else if (teamSelect == 2 && team2 == true){
             team2 = false;
-            teamNum = 0;
+            teamNum -= 1;
             cout << "Its shell is soft immediately after it is born. In no" << endl
                 << "time at all, the shell becomes so resilient that a" << endl
                 << "prodding finger will bounce right off it. It hides in" << endl
@@ -50,7 +50,7 @@ int main() {
                 << "spouts of water at every opportunity." << endl;
         }else if (teamSelect == 3 && team3 == true){
             team3 = false;
-            teamNum = 0;
+            teamNum -= 1;
             cout << "From the time it is born, a flame burns at the tip of" << endl
                 << "its tail. It shows the strength of its life-force. If" << endl
                 << "Charmander is weak, the flame also burns weakly. If" << endl
@@ -59,7 +59,6 @@ int main() {
         }else{
             cout << "Oh no! It seems that Professor Oak has run out of" << endl
                 << "starter Pokemon. Better luck next time!" << endl;
-            teamNum = 0;
         }
     }
 
