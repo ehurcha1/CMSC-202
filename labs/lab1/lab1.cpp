@@ -14,7 +14,7 @@ int main() {
     cout << "What is your age?" << endl;
     cin >> age;
 
-    if (10<=age<=122){
+    if (age >= 10 && age <= 122){
         cout << "Welcome, Pokemon trainer " << name << "!" << endl;
         cout << "To start your adventure, you must choose the first" << endl
                 << "member of your team. Take a minute to review your" << endl
