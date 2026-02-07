@@ -31,7 +31,7 @@ int main() {
     bool team2=true;
     bool team3=true;
     
-    while (teamNum >= 1 && teamNum <= 3){
+    while (teamNum != 0){
         if (teamSelect == 1 && team1 == true){
             team1 = false;
             teamNum -= 1;
@@ -59,6 +59,14 @@ int main() {
         }else{
             cout << "Oh no! It seems that Professor Oak has run out of" << endl
                 << "starter Pokemon. Better luck next time!" << endl;
+        }
+        
+        if (teamNum >= 1){
+            cout << "What would you like to do?" << endl
+                << "1. Learn about Bulbasaur" << endl
+                << "2. Learn about Squirtle" << endl
+                << "3. Learn about Charmander" << endl;
+            cin >> teamSelect;
         }
     }
 
