@@ -39,7 +39,7 @@ int main() {
                 << "soaking up the sun's rays, the seed grows" << endl
                 << "progressively larger. It is filled with nutrients." << endl
                 << "Able to go for days without eating a single morsel, it" << endl
-                << "uses this to grow while it is young." << endl;
+                << "uses this to grow while it is young.\n" << endl;
         }else if (teamSelect == 2 && team2 == true){
             team2 = false;
             teamNum -= 1;
@@ -47,7 +47,7 @@ int main() {
                 << "time at all, the shell becomes so resilient that a" << endl
                 << "prodding finger will bounce right off it. It hides in" << endl
                 << "its shell to protect itself, then strikes back with" << endl
-                << "spouts of water at every opportunity." << endl;
+                << "spouts of water at every opportunity.\n" << endl;
         }else if (teamSelect == 3 && team3 == true){
             team3 = false;
             teamNum -= 1;
@@ -55,18 +55,18 @@ int main() {
                 << "its tail. It shows the strength of its life-force. If" << endl
                 << "Charmander is weak, the flame also burns weakly. If" << endl
                 << "Charmander is healthy, the flame will burn vigorously" << endl
-                << "and won't go out even if it gets a bit wet." << endl;
-        }else{
-            cout << "Oh no! It seems that Professor Oak has run out of" << endl
-                << "starter Pokemon. Better luck next time!" << endl;
+                << "and won't go out even if it gets a bit wet.\n" << endl;
         }
-        
         if (teamNum >= 1){
             cout << "What would you like to do?" << endl
                 << "1. Learn about Bulbasaur" << endl
                 << "2. Learn about Squirtle" << endl
                 << "3. Learn about Charmander" << endl;
             cin >> teamSelect;
+        }
+        if (teamNum == 0){
+            cout << "Oh no! It seems that Professor Oak has run out of" << endl
+                << "starter Pokemon. Better luck next time!" << endl;
         }
     }
 
