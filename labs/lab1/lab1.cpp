@@ -6,14 +6,13 @@
 ** Section: 
 ** E-mail:  ehurcha1@umbc.edu
 **
-** description
-** description
-** description
+** This program simulates the beginning of a Pokemon game.
+** It asks the user for their name and age. Then, it presents
+** them with the decision of picking a first Pokemon.
 *****************************************/
 
 
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
