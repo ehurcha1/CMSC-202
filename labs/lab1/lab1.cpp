@@ -1,3 +1,17 @@
+/*****************************************
+** File:    lab1.cpp
+** Project: CMSC 202 Lab 1, Spring 2026
+** Author:  Elliot Hurchalla
+** Date:    02/07/26
+** Section: 
+** E-mail:  ehurcha1@umbc.edu
+**
+** description
+** description
+** description
+*****************************************/
+
+
 #include <iostream>
 #include <string>
 using namespace std;
