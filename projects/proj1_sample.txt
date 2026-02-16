@@ -1,0 +1,154 @@
+What is the file name?
+proj1.txt
+What is the file name?
+proj1_1.txt
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+UMBC
+STACK
+CLASS
+POINTER
+QUEUE
+DEBUG
+What are the coordinates of the start of the word? (row space column)
+0 10
+What are the coordinates of the end of the word? (row space column)
+5 5
+INVALID COORDINATES
+What are the coordinates of the start of the word? (row space column)
+-1 4
+What are the coordinates of the end of the word? (row space column)
+1
+5
+INVALID COORDINATES
+What are the coordinates of the start of the word? (row space column)
+0 0
+What are the coordinates of the end of the word? (row space column)
+0 3
+Hooray! You found the word, "UMBC" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+STACK
+CLASS
+POINTER
+QUEUE
+DEBUG
+What are the coordinates of the start of the word? (row space column)
+2 4
+What are the coordinates of the end of the word? (row space column)
+2 9
+Sorry, that isn't one of the words. Please try again.
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+STACK
+CLASS
+POINTER
+QUEUE
+DEBUG
+What are the coordinates of the start of the word? (row space column)
+2 5
+What are the coordinates of the end of the word? (row space column)
+2 9
+Hooray! You found the word, "STACK" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+CLASS
+POINTER
+QUEUE
+DEBUG
+What are the coordinates of the start of the word? (row space column)
+9 0
+What are the coordinates of the end of the word? (row space column)
+9 4
+Hooray! You found the word, "DEBUG" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+CLASS
+POINTER
+QUEUE
+What are the coordinates of the start of the word? (row space column)
+8 5
+What are the coordinates of the end of the word? (row space column)
+8 9
+Hooray! You found the word, "QUEUE" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+CLASS
+POINTER
+What are the coordinates of the start of the word? (row space column)
+4 0
+What are the coordinates of the end of the word? (row space column)
+4 6
+Hooray! You found the word, "POINTER" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 U M B C Q R T Y P L
+ 1 K J H G F D S A Z X
+ 2 M N B V C S T A C K
+ 3 W V C L A S S K E T
+ 4 P O I N T E R L M Q
+ 5 Z P X N V Q W E R T
+ 6 A S D F G U H J K O
+ 7 P O K E F Y U I O P
+ 8 Z X C V B Q U E U E
+ 9 D E B U G P L M N T
+CLASS
+What are the coordinates of the start of the word? (row space column)
+3 2
+What are the coordinates of the end of the word? (row space column)
+3 6
+Hooray! You found the word, "CLASS" !
+Congratulations! You found all of the words!

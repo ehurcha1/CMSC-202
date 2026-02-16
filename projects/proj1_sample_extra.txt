@@ -1,0 +1,139 @@
+What is the file name?
+proj1_extra.txt
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+POINTER
+VECTOR
+QUEUE
+STACK
+CLASS
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+9 9
+What are the coordinates of the end of the word? (row space column)
+5 9
+Hooray! You found the word, "STACK" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+POINTER
+VECTOR
+QUEUE
+CLASS
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+9 0
+What are the coordinates of the end of the word? (row space column)
+5 4
+Hooray! You found the word, "CLASS" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+POINTER
+VECTOR
+QUEUE
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+0 9
+What are the coordinates of the end of the word? (row space column)
+0 3
+Hooray! You found the word, "POINTER" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+VECTOR
+QUEUE
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+0 0
+What are the coordinates of the end of the word? (row space column)
+0 5
+Sorry, that isn't one of the words. Please try again.
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+VECTOR
+QUEUE
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+0 0
+What are the coordinates of the end of the word? (row space column)
+5 0
+Hooray! You found the word, "VECTOR" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+QUEUE
+OBJECT
+What are the coordinates of the start of the word? (row space column)
+8 3
+What are the coordinates of the end of the word? (row space column)
+8 8
+Hooray! You found the word, "OBJECT" !
+   0 1 2 3 4 5 6 7 8 9
+ 0 V S E R E T N I O P
+ 1 E Q H Z U U G N L F
+ 2 C S U A P P L R P N
+ 3 T B V E M I R G B W
+ 4 O U M S U O X B H Q
+ 5 R Z B C S E S A I K
+ 6 A K S S H Z G J T C
+ 7 X A A I T V K P H A
+ 8 P L I O B J E C T T
+ 9 C R P S T H B A F S
+QUEUE
+What are the coordinates of the start of the word? (row space column)
+1 1
+What are the coordinates of the end of the word? (row space column)
+5 5
+Hooray! You found the word, "QUEUE" !
+Congratulations! You found all of the words!
