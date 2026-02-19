@@ -46,8 +46,9 @@ int main() {
     if (isUnique(input, myArray) == false){
       cout << "This number already exists in the array, try another number: ";
       cin >> input;
-    //Otherwise, adds to the array
-    }else{
+    }
+      //Otherwise, adds to the array
+    else{
       myArray[i] = input;
     }
   }
