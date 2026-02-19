@@ -32,7 +32,7 @@ int main() {
   int myArray[NUM_NUMBERS] = {0};
   
   // Populate Array with unique, non-zero numbers from user for size NUM_NUMBERS
-  for (int i = 0; i < NUM_NUMBERS; i++)
+  for (int i = 0; i < NUM_NUMBERS; i++){
     cout << "Enter a unique number (not including 0): ";
     cin >> input;
 
@@ -50,6 +50,7 @@ int main() {
     }else{
       myArray[i] = input;
     }
+  }
   
   //Iterate through array and display all numbers (not sorted)
   for (int i = 0; i < NUM_NUMBERS; i++){
