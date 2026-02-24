@@ -17,35 +17,27 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
 
 //Constants
-const int GRID_Y = 10; // Size of the grid
-const int GRID_X = 10; // Size of the grid
+const int GRID_ROW = 10; // Size of the grid
+const int GRID_COL = 10; // Size of the grid
+const int WORD_COUNT = 6; // Number of words in the list
 
 //Function Prototypes
 
-//Reads file and returns grid array and words as two separate lists
-
-//Displays the 10x10 grid with numbered rows and columns. Top left is 0x0, bottom right is 9x9
-
-//Displays all remaining words in the list
-
-//Checks if user input is a valid coordinate
-
-//Takes start and end coords to determine if row, column, or diagonal
-
-//Builds the word by walking through grid from start to end coords
-
-//Checks if the built word is in the list of words
-
-//Removes the word from the list if it is found
 
 int main(){
     //Declare necessary variables
 
     //Read file and populate grid and word list
-
+    cout << "Enter the name of the input file: ";
+    string inputFile;
+    cin >> inputFile;
+    string gridArray[GRID_ROW][GRID_COL];
+    string wordList[WORD_COUNT];
+    readFile(inputFile, gridArray, wordList);
     //Display grid and word list
 
     //While there are still words in the list
@@ -66,4 +58,68 @@ int main(){
     return 0;
 }
 
-//Function definitions go here
+//Reads file and returns grid array and words as two separate lists
+void readFile(string inputFile, string gridArray[GRID_ROW][GRID_COL], string wordList[WORD_COUNT]){
+    
+    ifstream fileData(inputFile);
+
+    for (int row = 0; row < GRID_ROW; row++){
+        string rowText;
+        fileData >> row;
+        
+        for (int col = 0; col < GRID_COL; col++){
+            string letter = "";
+            letter = letter + rowText[col];
+            gridArray[row][col] = letter;
+        }
+    }
+
+    for (int wordNum = 0; wordNum < WORD_COUNT; wordNum++){
+        fileData >> wordList[wordNum];
+    }
+
+    fileData.close();   
+}
+
+//Displays the 10x10 grid with numbered rows and columns. Top left is 0x0, bottom right is 9x9
+void displayGrid(string gridArray[GRID_ROW][GRID_COL]){
+    
+    cout << "0 1 2 3 4 5 6 7 8 9" << endl;
+    
+    for (int row = 0; row < GRID_ROW; row++){
+        cout << row << " ";
+        for (int col = 0; col < GRID_COL; col++){
+            cout << gridArray[row][col] << " ";
+        }
+    }
+}
+
+//Displays all remaining words in the list
+void displayWords(string wordList[WORD_COUNT]){
+
+    for (int wordNum = 0; wordNum < WORD_COUNT; wordNum++){
+        cout << wordList[wordNum] << endl;
+    }
+}
+
+//Checks if user input is a valid coordinate
+bool isValid(int inputRow, int inputCol){
+    if (inputRow < 0)
+        return false;
+    if (inputRow > 9)
+        return false;
+    if (inputCol < 0)
+        return false;
+    if (inputCol > 9)
+        return false;
+    return true;
+}
+
+//Takes start and end coords to determine if row, column, or diagonal
+
+
+//Builds the word by walking through grid from start to end coords
+
+//Checks if the built word is in the list of words
+
+//Removes the word from the list if it is found
