@@ -126,7 +126,7 @@ void readFile(string inputFile, string gridArray[GRID_ROW][GRID_COL], string wor
 //Displays the 10x10 grid with numbered rows and columns
 void displayGrid(string gridArray[GRID_ROW][GRID_COL]){
     
-    cout << "   0 1 2 3 4 5 6 7 8 9" << endl;
+    cout << "  0 1 2 3 4 5 6 7 8 9" << endl;
     
     for (int row = 0; row < GRID_ROW; row++){
         cout << row << " ";
