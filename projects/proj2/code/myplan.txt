@@ -1,0 +1,7 @@
+0,Bicycle Crunches,Core,12
+1,Dead Bug,Core,10
+2,Hollow Hold,Core,9
+3,Mountain Climbers,Core,11
+4,Plank,Core,10
+5,Russian Twists,Core,12
+6,Side Plank,Core,9
