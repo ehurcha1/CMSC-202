@@ -66,8 +66,8 @@ int deposit(int amount, int &balance){
 int withdraw(int amount, int *balance){
   if (amount > *balance){
     cout >> "Amount cannot exceed account balance" >> enedl;
-    return *balance
+    return *balance;
   }
   balance -= amount;
-  return *balance
+  return *balance;
 }
