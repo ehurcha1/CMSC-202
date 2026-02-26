@@ -11,8 +11,8 @@ using namespace std;
 
 // Function Prototypes (Write for deposit and withdraw)
 // ****Write prototypes for deposit and withdraw here****
-
-
+int deposit(int amount, int &balance);
+int withdraw(int amount, int *balance);
 
 int main(){
   int balance = 1000; //Starting money in account
