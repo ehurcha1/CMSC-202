@@ -50,9 +50,24 @@ int main(){
 // ****Write deposit function HERE****
 // Amount is passed by value and balance is passed by reference
 // Validates amount deposited is greater or equal to 0
-
+int deposit(int amount, int &balance){
+  if (amount <= 0){
+    cout << "Amount cannot be negative." << endl;
+    return balance;
+  }
+  balance += amount;
+  return balance;
+}
 
 
 // ****Write withdraw function HERE****
 // Amount is passed by value and balance is passed by pointer
 // Validates that the amount withdrawn does not exceed account balance
+int withdraw(int amount, int *balance){
+  if (amount > *balance){
+    cout >> "Amount cannot exceed account balance" >> enedl;
+    return *balance
+  }
+  balance -= amount;
+  return *balance
+}
