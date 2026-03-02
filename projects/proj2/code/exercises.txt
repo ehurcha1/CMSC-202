@@ -1,0 +1,52 @@
+Bicycle Crunches,Core,12
+Dead Bug,Core,10
+Hollow Hold,Core,9
+Mountain Climbers,Core,11
+Plank,Core,10
+Russian Twists,Core,12
+Side Plank,Core,9
+Bird Dog,Core,10
+Back Extensions,Back,14
+Bent-Over Rows,Back,16
+Lat Pulldown,Back,15
+Pull Ups,Back,14
+Reverse Fly,Back,12
+Seated Row,Back,15
+Supermans,Back,10
+Bench Press,Chest,18
+Chest Fly,Chest,14
+Diamond Push Ups,Chest,15
+Incline Push Ups,Chest,14
+Push Ups,Chest,15
+Wide Push Ups,Chest,15
+Burpees,Cardio,16
+Cycling,Cardio,20
+High Knees,Cardio,12
+Jogging,Cardio,25
+Jump Rope,Cardio,12
+Jumping Jacks,Cardio,10
+Rowing,Cardio,18
+Stair Climb,Cardio,16
+Walking,Cardio,30
+Calf Raises,Legs,10
+Bodyweight Squats,Legs,20
+Goblet Squats,Legs,18
+Squats,Legs,20
+Forward Lunges,Legs,18
+Reverse Lunges,Legs,18
+Step-Ups,Legs,15
+Wall Sit,Legs,14
+Glute Bridge,Legs,14
+Hip Thrusts,Legs,16
+Hamstring Curls,Legs,15
+Romanian Deadlift,Legs,18
+Shoulder Press,Shoulders,14
+Lateral Raises,Shoulders,12
+Front Raises,Shoulders,12
+Shoulder Taps,Shoulders,10
+Arnold Press,Shoulders,15
+Bicep Curls,Arms,14
+Hammer Curls,Arms,14
+Tricep Dips,Arms,13
+Tricep Extensions,Arms,14
+Skull Crushers,Arms,15
