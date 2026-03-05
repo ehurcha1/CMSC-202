@@ -22,6 +22,10 @@ int FarmersMarket::GetCornCount() const {return m_corn;}
 // Implement Getters here (get carrot count, corn price,
 //     carrot price, revenue)
 // Don't forget the const keyword after the ()
+int FarmersMarket::GetCarrotCount() const {return m_carrot;}
+float FarmersMarket::GetCornPrice() const {return m_cornPrice;}
+float FarmersMarket::GetCarrotPrice() const {return m_carrotPrice;}
+float FarmersMarket::GetRevenue() const {return m_revenue;}
 
 
 
