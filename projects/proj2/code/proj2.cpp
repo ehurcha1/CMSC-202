@@ -1,6 +1,6 @@
 //Title: proj2.cpp
-//Author: Jeremy Dixon
-//Date: 2/17/2026
+//Author: Elliot Hurchalla
+//Date: 3/7/2026
 //Description: Driver program for Project 2 (Workout Plan Builder) in CMSC 202.
 //             Loads exercises from a file and launches a menu to let the user
 //             build, view, save, or load a 7-day workout plan.
