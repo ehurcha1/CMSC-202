@@ -14,41 +14,41 @@ using namespace std;
 
 class Exercise {
 public:
-  // Name - Exercise()
-  // Desc - Default Constructor - Creates an empty exercise with default values
-  // Preconditions - None
-  // Postconditions - Exercise object is initialized with blank/zero data
-  Exercise();
+    // Name - Exercise()
+    // Desc - Default Constructor - Creates an empty exercise with default values
+    // Preconditions - None
+    // Postconditions - Exercise object is initialized with blank/zero data
+    Exercise();
 
-  // Name - Exercise(string name, string muscle, int duration)
-  // Desc - Overloaded Constructor - Creates an exercise with provided name,
-  //        muscle group, and duration in minutes
-  // Preconditions - Caller provides exercise data values
-  // Postconditions - Exercise object is initialized with provided data
-  Exercise(string name, string muscle, int duration);
+    // Name - Exercise(string name, string muscle, int duration)
+    // Desc - Overloaded Constructor - Creates an exercise with provided name,
+    //        muscle group, and duration in minutes
+    // Preconditions - Caller provides exercise data values
+    // Postconditions - Exercise object is initialized with provided data
+    Exercise(string name, string muscle, int duration);
 
-  // Name - GetName()
-  // Desc - Returns the exercise name
-  // Preconditions - Exercise object exists
-  // Postconditions - Exercise name is returned to caller
-  string GetName() const;
+    // Name - GetName()
+    // Desc - Returns the exercise name
+    // Preconditions - Exercise object exists
+    // Postconditions - Exercise name is returned to caller
+    string GetName() const;
 
-  // Name - GetMuscle()
-  // Desc - Returns the target muscle group
-  // Preconditions - Exercise object exists
-  // Postconditions - Muscle group is returned to caller
-  string GetMuscle() const;
+    // Name - GetMuscle()
+    // Desc - Returns the target muscle group
+    // Preconditions - Exercise object exists
+    // Postconditions - Muscle group is returned to caller
+    string GetMuscle() const;
 
-  // Name - GetDuration()
-  // Desc - Returns the exercise duration in minutes
-  // Preconditions - Exercise object exists
-  // Postconditions - Duration value is returned to caller
-  int GetDuration() const;
+    // Name - GetDuration()
+    // Desc - Returns the exercise duration in minutes
+    // Preconditions - Exercise object exists
+    // Postconditions - Duration value is returned to caller
+    int GetDuration() const;
 
 private:
-  string m_name; // Name of the exercise
-  string m_muscle; // Name of the muscle group
-  int m_duration; // Duration of the exercise in minutes
+    string m_name; // Name of the exercise
+    string m_muscle; // Name of the muscle group
+    int m_duration; // Duration of the exercise in minutes
 };
 
 #endif //Header guard

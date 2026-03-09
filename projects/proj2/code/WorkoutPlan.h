@@ -13,35 +13,35 @@
 using namespace std;
 
 class WorkoutPlan {
- public:
-  // Name - WorkoutPlan()
-  // Desc - Default Constructor - Creates a weekly workout plan and
-  //        initializes day names
-  // Preconditions - None
-  // Postconditions - Day labels are stored for all 7 days
-  WorkoutPlan();
+  public:
+    // Name - WorkoutPlan()
+    // Desc - Default Constructor - Creates a weekly workout plan and
+    //        initializes day names
+    // Preconditions - None
+    // Postconditions - Day labels are stored for all 7 days
+    WorkoutPlan();
 
-  // Name - SetDayExercise(int day, const Exercise &exercise)
-  // Desc - Assigns an exercise to a given day index in the week
-  // Preconditions - day must be in range 0 to 6
-  // Postconditions - Matching day stores the provided exercise
-  void SetDayExercise(int day, const Exercise &exercise);
+    // Name - SetDayExercise(int day, const Exercise &exercise)
+    // Desc - Assigns an exercise to a given day index in the week
+    // Preconditions - day must be in range 0 to 6
+    // Postconditions - Matching day stores the provided exercise
+    void SetDayExercise(int day, const Exercise &exercise);
 
-  // Name - GetDayExercise(int day)
-  // Desc - Returns the exercise from a specific day
-  // Preconditions - Day must be in range 0 to 6
-  // Postconditions - Matching day returns the provided exercise
-  Exercise GetDayExercise(int day) const;
-  
-  // Name - PrintPlan()
-  // Desc - Displays the 7-day workout plan to the console
-  // Preconditions - Plan may contain assigned exercises
-  // Postconditions - Weekly plan text is output to standard output
-  void PrintPlan() const;
+    // Name - GetDayExercise(int day)
+    // Desc - Returns the exercise from a specific day
+    // Preconditions - Day must be in range 0 to 6
+    // Postconditions - Matching day returns the provided exercise
+    Exercise GetDayExercise(int day) const;
+    
+    // Name - PrintPlan()
+    // Desc - Displays the 7-day workout plan to the console
+    // Preconditions - Plan may contain assigned exercises
+    // Postconditions - Weekly plan text is output to standard output
+    void PrintPlan() const;
 
- private:
-  Exercise m_weekPlan[7]; // Array holding one week's exercises (max ONE exercise per day)
-  string m_dayNames[7]; // Array holding the name of each day in the week
+  private:
+    Exercise m_weekPlan[7]; // Array holding one week's exercises (max ONE exercise per day)
+    string m_dayNames[7]; // Array holding the name of each day in the week
 };
 
 #endif //Header guard

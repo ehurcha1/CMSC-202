@@ -15,25 +15,25 @@ using namespace std;
 // Preconditions - exercises.txt must exist in the same directory as the executable
 // Postconditions - User can interact with the menu until they choose to quit
 int main() {
-  srand(time(NULL));
-  
-  // Create a WorkoutPlanBuilder object (starts with 0 loaded exercises)
-  WorkoutPlanBuilder builder;
+    srand(time(NULL));
+    
+    // Create a WorkoutPlanBuilder object (starts with 0 loaded exercises)
+    WorkoutPlanBuilder builder;
 
-  // Load exercises from the input file
-  int exerciseCount = builder.LoadExercises("exercises.txt");
+    // Load exercises from the input file
+    int exerciseCount = builder.LoadExercises("exercises.txt");
 
-  // If loading fails or returns 0 exercises, end the program
-  if (exerciseCount <= 0) {
-    cout << "Unable to load exercises from exercises.txt" << endl;
-    return 1;
-  }
+    // If loading fails or returns 0 exercises, end the program
+    if (exerciseCount <= 0) {
+        cout << "Unable to load exercises from exercises.txt" << endl;
+        return 1;
+    }
 
-  // Confirm how many exercises were loaded
-  cout << "Loaded " << exerciseCount << " exercises from exercises.txt" << endl;
+    // Confirm how many exercises were loaded
+    cout << "Loaded " << exerciseCount << " exercises from exercises.txt" << endl;
 
-  // Automatically start the menu so the user can build/view/save/load a plan
-  builder.RunMenu();
+    // Automatically start the menu so the user can build/view/save/load a plan
+    builder.RunMenu();
 
-  return 0;
+    return 0;
 }
