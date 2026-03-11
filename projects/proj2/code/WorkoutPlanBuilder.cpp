@@ -134,6 +134,7 @@ void WorkoutPlanBuilder::RunMenu() {
   int choice = 0;
 
   do {
+    cout << endl;
     cout << "===== Workout Plan Menu =====" << endl;
     cout << "1) View loaded exercises" << endl;
     cout << "2) Build an automatic 7-day plan" << endl;
