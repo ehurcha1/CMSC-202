@@ -1,4 +1,4 @@
-// Title: WorkoutPlanBuilder.h
+// Title: WorkoutPlanBuilder.cpp
 // Author: Elliot Hurchalla
 // Date: 3/7/2026
 // Description: This is part of the project in CMSC 202.
@@ -13,17 +13,23 @@ using namespace std;
 // Desc - Default Constructor - Creates a builder with zero loaded exercises
 // Preconditions - None
 // Postconditions - Internal exercise count is set to 0
-WorkoutPlanBuilder::WorkoutPlanBuilder() { m_exerciseCount = 0; }
+WorkoutPlanBuilder::WorkoutPlanBuilder() {
+  // Initializes the exercise count before loading exercises
+  m_exerciseCount = 0;
+}
 
 // Name - LoadExercises(const string &filename)
 // Desc - Reads exercise records from a file into a fixed array
 // Preconditions - filename refers to a readable input file
 // Postconditions - m_exerciseCount reflects successfully loaded exercises
 int WorkoutPlanBuilder::LoadExercises(const string &filename) {
+  // Opens the file and reads exersizes into array
+  // Then counts how many exercises have been loaded
   ifstream fileWorkouts(filename);
 
   string name = "";
   while (getline(fileWorkouts, name, ',')) {
+    // Reads the name, muscle, and duration for each exercise
     string muscle = "";
     int duration = 0;
 
@@ -43,6 +49,7 @@ int WorkoutPlanBuilder::LoadExercises(const string &filename) {
 // Preconditions - At least one exercise has been loaded
 // Postconditions - Returned WorkoutPlan contains assignments for each day
 WorkoutPlan WorkoutPlanBuilder::BuildWeeklyPlan() const {
+  // Randomly assigns exercises to each day
   WorkoutPlan plan;
 
   plan.SetDayExercise(0, m_exercises[rand() % m_exerciseCount]);
@@ -61,8 +68,10 @@ WorkoutPlan WorkoutPlanBuilder::BuildWeeklyPlan() const {
 // Preconditions - None
 // Postconditions - Exercises displayed to cout
 void WorkoutPlanBuilder::DisplayLoadedExercises() const {
+  // Prints loaded exercises
   cout << "Loaded Exercises:" << endl;
   for (int i = 0; i < m_exerciseCount; i++) {
+    // Added setw later because formatting between single double digits were off
     cout << setw(2) << i + 1 << ") " << m_exercises[i].GetName() << " - "
          << m_exercises[i].GetMuscle() << " - " << m_exercises[i].GetDuration()
          << " min" << endl;
@@ -74,6 +83,7 @@ void WorkoutPlanBuilder::DisplayLoadedExercises() const {
 // Preconditions - min <= max
 // Postconditions - Returns validated integer
 int WorkoutPlanBuilder::GetIntInRange(int min, int max) const {
+  // Prompts the user for an integer within a range
   int num = 0;
 
   cout << "Choose an option (" << min << "-" << max << "): ";
@@ -91,11 +101,18 @@ int WorkoutPlanBuilder::GetIntInRange(int min, int max) const {
 // Preconditions - At least one exercise has been loaded
 // Postconditions - Returns a 7-day WorkoutPlan based on user selections
 WorkoutPlan WorkoutPlanBuilder::BuildWeeklyPlanInteractive() const {
+  // Lets the user choose an exercise for each day and builds a plan based on
+  // their choices
   WorkoutPlan plan;
+
   cout << "--- Build a 7-Day Workout Plan ---" << endl;
+
   DisplayLoadedExercises();
+
   cout << "Choose an exercise number for each day." << endl;
   for (int i = 0; i < DAYS_IN_WEEK; i++) {
+    // Prompts the user for an exercise choice for each day
+    // Then adds to the plan
     cout << "Day " << i + 1 << " (1-" << m_exerciseCount << "): ";
     int choice = GetIntInRange(1, m_exerciseCount);
     plan.SetDayExercise(i, m_exercises[choice - 1]);
@@ -110,6 +127,7 @@ WorkoutPlan WorkoutPlanBuilder::BuildWeeklyPlanInteractive() const {
 // Preconditions - Exercises should be loaded first (LoadExercises)
 // Postconditions - User may create/update a plan and optionally save/load it
 void WorkoutPlanBuilder::RunMenu() {
+  // Displays the menu
   WorkoutPlan plan;
 
   bool hasPlan = false;
