@@ -63,7 +63,7 @@ WorkoutPlan WorkoutPlanBuilder::BuildWeeklyPlan() const {
 void WorkoutPlanBuilder::DisplayLoadedExercises() const {
   cout << "Loaded Exercises:" << endl;
   for (int i = 0; i < m_exerciseCount; i++) {
-    cout << i + 1 << ") " << m_exercises[i].GetName() << " - "
+    cout << setw(2) << i + 1 << ") " << m_exercises[i].GetName() << " - "
          << m_exercises[i].GetMuscle() << " - " << m_exercises[i].GetDuration()
          << " min" << endl;
   }

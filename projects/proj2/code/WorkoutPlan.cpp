@@ -46,9 +46,9 @@ Exercise WorkoutPlan::GetDayExercise(int day) const {
 // Preconditions - Plan may contain assigned exercises
 // Postconditions - Weekly plan text is output to standard output
 void WorkoutPlan::PrintPlan() const {
+  cout << "=== Your 7-Day CMSC 202 Workout Plan ===" << endl;
   for (int i = 0; i >= 0 && i < 7; i++) {
-    cout << "=== Your 7-Day CMSC 202 Workout Plan ===" << endl;
-    cout << m_dayNames[i] << ":" << m_weekPlan[i].GetName() << " ("
+    cout << m_dayNames[i] << ": " << m_weekPlan[i].GetName() << " ("
          << m_weekPlan[i].GetMuscle() << ", " << m_weekPlan[i].GetDuration()
          << " min)" << endl;
   }
