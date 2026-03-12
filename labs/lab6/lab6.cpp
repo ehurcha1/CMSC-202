@@ -24,27 +24,39 @@ enum SANDWICH_TYPE { CLUB, HOAGIE, BURGER };
 // Write FillSandwichOrder here:
 void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
   // Declare variables to hold number of customers, flavors, and name
-
+  int numCustomers = 0;
+  int type = 0;
+  string name = "";
   
   // Ask the user for number of customers
-  
+  cout << "How many people want a sandwich? ";
+  cin >> numCustomers;
 
   // Clear input buffer
-  
+  if(cin.peek() == '\n')
+    cin.ignore(256, '\n');
   
   // Iterate through number of customers
   // Get customer name and type for each customer
+  for (int i = 0; i < numCustomers; i++) {
+    cout << "Person " << i + 1 << ":" << endl;
+    cout << "What is the name of individual " << i + 1 << "? " << endl;
+    getline(cin, name);
+    cout << "What type of sandwich would this individual like?\n"
+        << "(0 = club, 1 = hoagie, 2 = burger)" << endl;
+    cin >> type;
 
+    // Clear input buffer
+    if(cin.peek() == '\n')
+      cin.ignore(256, '\n');
 
-  // Clear input buffer
+    // Create a Sandwich object with the info and push it to the vector.
+    sandwichOrder.push_back(Sandwich::Sandwich(name, type));
+  }
 
-  
-  // Create a Sandwich object with the info and push it to the vector.
-
-  
   // You may have to use:
-  //   if(cin.peek() == '\n')
-  //      cin.ignore(256, '\n');
+     if(cin.peek() == '\n')
+        cin.ignore(256, '\n');
   // to clear the buffer.
   
 } // End of FillSandwichOrder
@@ -75,14 +87,51 @@ void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
 // Use a switch statement to display the type (provided).
 // Don't forget to display the name as well.
 void DisplayWithoutIterator(vector<Sandwich> &sandwichOrder) {
-
+  cout << "Displaying Sandwich Order without iterator:" << endl;
+  cout << "We have " << sandwichOrder.size() << " items in the order." << endl;
+  for (int i = 0; i < sandwichOrder.size(); i++) {
+    int sandwichOrderType = sandwichOrder[i].GetType();
+  switch (sandwichOrderType) {
+  case CLUB:
+    cout << "- Club for ";
+    break;
+  case HOAGIE:
+    cout << "- Hoagie for ";
+    break;
+  case BURGER:
+    cout << "- Burger for ";
+    break;
+  default:
+    cout << "- unknown flavor for ";
+    break;
+  }
+  }
 }
 
 // Please write DisplayWithIterator.
 // This function is the same as the one above, but uses an
 // iterator to display the sandwich order.
 void DisplayWithIterator(vector<Sandwich> &sandwichOrder) {
-
+  cout << "Displaying Sandwich Order with iterator:" << endl;
+  cout << "We have " << sandwichOrder.size() << " items in the order." << endl;
+  for (vector<Sandwich>::iterator it = sandwichOrder.begin() ; it != sandwichOrder.end(); ++it) {
+    int sandwichOrderType = it->GetType();
+    switch (sandwichOrderType) {
+    case CLUB:
+      cout << "- Club for ";
+      break;
+    case HOAGIE:
+      cout << "- Hoagie for ";
+      break;
+    case BURGER:
+      cout << "- Burger for ";
+      break;
+    default:
+      cout << "- unknown flavor for ";
+      break;
+    }
+    cout << it->GetName() << endl;
+  }
 }
 
 
