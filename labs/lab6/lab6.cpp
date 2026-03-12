@@ -87,7 +87,6 @@ void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
 // Use a switch statement to display the type (provided).
 // Don't forget to display the name as well.
 void DisplayWithoutIterator(vector<Sandwich> &sandwichOrder) {
-  cout << "Displaying Sandwich Order without iterator:" << endl;
   int numSandwiches = sandwichOrder.size();
   cout << "We have " << numSandwiches << " items in the order." << endl;
   for (int i = 0; i < numSandwiches; i++) {
@@ -106,6 +105,7 @@ void DisplayWithoutIterator(vector<Sandwich> &sandwichOrder) {
     cout << "- unknown flavor for ";
     break;
   }
+  cout << sandwichOrder[i].GetName() << endl;
   }
 }
 
@@ -113,7 +113,6 @@ void DisplayWithoutIterator(vector<Sandwich> &sandwichOrder) {
 // This function is the same as the one above, but uses an
 // iterator to display the sandwich order.
 void DisplayWithIterator(vector<Sandwich> &sandwichOrder) {
-  cout << "Displaying Sandwich Order with iterator:" << endl;
   cout << "We have " << sandwichOrder.size() << " items in the order." << endl;
   for (vector<Sandwich>::iterator it = sandwichOrder.begin() ; it != sandwichOrder.end(); ++it) {
     int sandwichOrderType = it->GetType();
