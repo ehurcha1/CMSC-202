@@ -51,7 +51,7 @@ void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
       cin.ignore(256, '\n');
 
     // Create a Sandwich object with the info and push it to the vector.
-    sandwichOrder.push_back(Sandwich::Sandwich(name, type));
+    sandwichOrder.push_back(Sandwich(name, type));
   }
 
   // You may have to use:
@@ -88,8 +88,9 @@ void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
 // Don't forget to display the name as well.
 void DisplayWithoutIterator(vector<Sandwich> &sandwichOrder) {
   cout << "Displaying Sandwich Order without iterator:" << endl;
-  cout << "We have " << sandwichOrder.size() << " items in the order." << endl;
-  for (int i = 0; i < sandwichOrder.size(); i++) {
+  int numSandwiches = sandwichOrder.size();
+  cout << "We have " << numSandwiches << " items in the order." << endl;
+  for (int i = 0; i < numSandwiches; i++) {
     int sandwichOrderType = sandwichOrder[i].GetType();
   switch (sandwichOrderType) {
   case CLUB:
