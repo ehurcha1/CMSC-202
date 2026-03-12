@@ -55,8 +55,8 @@ void FillSandwichOrder(vector<Sandwich> &sandwichOrder) {
   }
 
   // You may have to use:
-     if(cin.peek() == '\n')
-        cin.ignore(256, '\n');
+  //   if(cin.peek() == '\n')
+  //       cin.ignore(256, '\n');
   // to clear the buffer.
   
 } // End of FillSandwichOrder
