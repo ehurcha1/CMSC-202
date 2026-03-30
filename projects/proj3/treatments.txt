@@ -1,0 +1,10 @@
+1,X-Ray,250.00
+2,Blood Test,150.00
+3,IV Fluids,200.00
+4,MRI Scan,1200.00
+5,CT Scan,800.00
+6,EKG,350.00
+7,Urinalysis,75.00
+8,Wound Closure,500.00
+9,Pain Medication,50.00
+10,Oxygen Therapy,175.00

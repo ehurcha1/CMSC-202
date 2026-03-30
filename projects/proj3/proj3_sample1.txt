@@ -1,0 +1,406 @@
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 1
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 2
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+Enter treatment ID: 1
+Enter number of doses/units: 1
+Treatment assigned.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   X-Ray                         1      250.00      250.00
+-----------------------------------------------------------
+                          Subtotal:                  250.00
+                Facility Fee (15%):                   37.50
+                             Total:                  287.50
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: -1
+Unknown choice.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 6
+Unknown choice.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 3
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   X-Ray                         1      250.00      250.00
+-----------------------------------------------------------
+                          Subtotal:                  250.00
+                Facility Fee (15%):                   37.50
+                             Total:                  287.50
+Remove which treatment #? 1
+Removed treatment 1.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 3
+No treatments to remove.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2001 ==
+(no treatments assigned)
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 5
+No treatments assigned. Patient cannot be discharged.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 2
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+Enter treatment ID: 2
+Enter number of doses/units: 2
+Treatment assigned.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   Blood Test                    2      150.00      300.00
+-----------------------------------------------------------
+                          Subtotal:                  300.00
+                Facility Fee (15%):                   45.00
+                             Total:                  345.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 2
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+Enter treatment ID: 3
+Enter number of doses/units: 3
+Treatment assigned.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   Blood Test                    2      150.00      300.00
+2   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  900.00
+                Facility Fee (15%):                  135.00
+                             Total:                 1035.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 3
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   Blood Test                    2      150.00      300.00
+2   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  900.00
+                Facility Fee (15%):                  135.00
+                             Total:                 1035.00
+Remove which treatment #? 3
+Invalid treatment number.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 3
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   Blood Test                    2      150.00      300.00
+2   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  900.00
+                Facility Fee (15%):                  135.00
+                             Total:                 1035.00
+Remove which treatment #? 0
+Invalid treatment number.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 3
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   Blood Test                    2      150.00      300.00
+2   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  900.00
+                Facility Fee (15%):                  135.00
+                             Total:                 1035.00
+Remove which treatment #? 1
+Removed treatment 1.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  600.00
+                Facility Fee (15%):                   90.00
+                             Total:                  690.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 5
+
+== PATIENT RECORD #2001 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   IV Fluids                     3      200.00      600.00
+-----------------------------------------------------------
+                          Subtotal:                  600.00
+                Facility Fee (15%):                   90.00
+                             Total:                  690.00
+
+*** PATIENT DISCHARGED ***
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 1
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2002 ==
+(no treatments assigned)
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 2
+ID   Treatment                        Cost
+------------------------------------------
+1    X-Ray                    $     250.00
+2    Blood Test               $     150.00
+3    IV Fluids                $     200.00
+4    MRI Scan                 $    1200.00
+5    CT Scan                  $     800.00
+6    EKG                      $     350.00
+7    Urinalysis               $      75.00
+8    Wound Closure            $     500.00
+9    Pain Medication          $      50.00
+10   Oxygen Therapy           $     175.00
+Enter treatment ID: 4
+Enter number of doses/units: 1
+Treatment assigned.
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 4
+
+== PATIENT RECORD #2002 ==
+#   Treatment                 Doses   Unit Cost       Total
+-----------------------------------------------------------
+1   MRI Scan                      1     1200.00     1200.00
+-----------------------------------------------------------
+                          Subtotal:                 1200.00
+                Facility Fee (15%):                  180.00
+                             Total:                 1380.00
+
+== ER TRIAGE SYSTEM ==
+1) View treatment catalog
+2) Assign treatment to patient
+3) Remove treatment from patient
+4) View patient record
+5) Discharge patient
+0) Exit
+Choice: 0
+Thank you for using Hospital Triage
