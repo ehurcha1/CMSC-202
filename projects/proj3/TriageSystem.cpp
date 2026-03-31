@@ -48,7 +48,9 @@ void TriageSystem::PrintPatientRecord() {
 // Preconditions - None
 // Postconditions - TriageSystem is ready to load a catalog and admit patients
 TriageSystem::TriageSystem() {
-  m_patient.SetPatientId(STARTING_PATIENT_ID); // Set initial patient id
+  m_nextPatientId =
+      STARTING_PATIENT_ID; // Set next patient id to starting value
+  AdmitNewPatient();       // Initialize first patient record
 }
 
 // Name - LoadCatalog
@@ -74,26 +76,101 @@ void TriageSystem::Run() {
 
     switch (choice) {
     case 1:
-      // View catalog
+      m_catalog.PrintCatalog(); // View treatment catalog
       break;
     case 2:
-      // Assign treatment
+      AssignTreatmentFlow(); // Assign treatment to patient
       break;
     case 3:
-      // Remove treatment
+      RemoveTreatmentFlow(); // Remove treatment from patient
       break;
     case 4:
-      // View patient record
+      m_patient.RecomputeTotals();
+      PrintPatientRecord(); // View patient record
       break;
     case 5:
-      // Discharge patient
+      DischargeFlow(); // Discharge patient
       break;
     case 0:
-      // Exit
+      cout << "Thank you for using Hospital Triage" << endl;
       break;
     default:
-      cout << "Invalid choice. Please try again." << endl;
+      cout << "Unknown choice." << endl;
       break;
     }
   } while (choice != 0);
+}
+
+// Start off private functions
+
+// Name - AdmitNewPatient
+// Desc - Clears current treatments and initializes a new patient record
+// Preconditions - None
+// Postconditions - New empty patient with id set
+void TriageSystem::AdmitNewPatient() {
+  m_patient
+      .ClearTreatments(); // Clear any existing treatments from previous patient
+  m_patient.SetPatientId(
+      m_nextPatientId); // Set patient id to next available id
+  m_nextPatientId++;    // Increment next patient id for future admissions
+}
+
+// Name - AssignTreatmentFlow
+// Desc - Prompts for a treatment id and doses, then assigns to patient
+// Preconditions - Catalog must contain loaded treatments
+// Postconditions - Adds treatment when input is valid
+void TriageSystem::AssignTreatmentFlow() {
+  m_catalog.PrintCatalog();
+  int id, doses;
+  cout << "Enter treatment ID: ";
+  cin >> id;
+  cout << "Enter number of doses/units: ";
+  cin >> doses;
+
+  if (m_patient.AddTreatmentById(m_catalog, id, doses)) {
+    cout << "Treatment assigned." << endl;
+  } else {
+    cout << "Invalid treatment ID or dose count." << endl;
+  }
+}
+
+// Name - RemoveTreatmentFlow
+// Desc - Shows current treatments and removes a selected one by index
+// Preconditions - Patient has at least one treatment
+// Postconditions - Removes selected treatment when valid index entered
+void TriageSystem::RemoveTreatmentFlow() {
+  if (m_patient.GetTreatments().IsEmpty()) {
+    cout << "No treatments to remove." << endl;
+    return;
+  }
+
+  m_patient.RecomputeTotals();
+  PrintPatientRecord();
+
+  int treatmentNumber = 0;
+  cout << "Remove which treatment #? ";
+  cin >> treatmentNumber;
+
+  if (m_patient.RemoveAt(treatmentNumber - 1)) {
+    cout << "Removed treatment " << treatmentNumber << "." << endl;
+  } else {
+    cout << "Invalid treatment number." << endl;
+  }
+}
+
+// Name - DischargeFlow
+// Desc - If patient has treatments, prints final record and admits next patient
+//        Cannot discharge if no treatments added.
+// Preconditions - Any state of patient allowed
+// Postconditions - Current patient discharged; new patient admitted
+void TriageSystem::DischargeFlow() {
+  if (m_patient.GetTreatments().IsEmpty()) {
+    cout << "No treatments assigned. Patient cannot be discharged." << endl;
+    return;
+  }
+
+  m_patient.RecomputeTotals();
+  PrintPatientRecord();
+  cout << "\n*** PATIENT DISCHARGED ***\n" << endl;
+  AdmitNewPatient();
 }
