@@ -59,6 +59,33 @@ void Patient::AddTreatment(PatientTreatment row) { m_treatments.PushBack(row); }
 // Preconditions - None
 // Postconditions - List cleared
 void Patient::ClearTreatments() { m_treatments.Clear(); }
+// Name - AddTreatmentById
+// Desc - Looks up cost in catalog and appends a treatment with doses
+// Preconditions - Catalog loaded; id exists; doses > 0
+// Postconditions - Treatment added and true returned; otherwise false
+bool Patient::AddTreatmentById(const TreatmentCatalog &catalog, int id,
+                               int doses) {
+  const Treatment *t = catalog.FindById(id); // Look up treatment by id
+  if (t == nullptr || doses <= 0) {          // Validate id and doses
+    return false; // Invalid input; do not add treatment
+  }
+  double doseCost = t->GetCost();           // Get cost per dose from catalog
+  PatientTreatment pt(id, doses, doseCost); // Create patient treatment
+  AddTreatment(pt);                         // Add to patient's treatment list
+  return true;                              // Successfully added treatment
+}
+
+// Name - At
+// Desc - Returns the PatientTreatment at zero-based index
+// Preconditions - 0 <= index < Count()
+// Postconditions - Returns a copy (default if out-of-range)
+PatientTreatment Patient::At(int index) { return m_treatments.At(index); }
+
+// Name - RemoveAt
+// Desc - Removes a treatment at zero-based index
+// Preconditions - 0 <= index < Count()
+// Postconditions - Returns true if removed
+bool Patient::RemoveAt(int index) { return m_treatments.RemoveAt(index); }
 
 // Name - RecomputeTotals
 // Desc - Recalculates subtotal, facility fee, and total based on current
