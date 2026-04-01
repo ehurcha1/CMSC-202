@@ -32,7 +32,7 @@ const Treatment *TreatmentCatalog::FindById(int id) const {
 // Desc - Loads treatments from a file (id,name,and cost)
 // Preconditions - Valid filename provided
 // Postconditions - Treatments appended to catalog
-void TreatmentCatalog::LoadCatalog(string filename) {
+void TreatmentCatalog::LoadCatalog(string filename) { // Open file to read
   ifstream inputFile(filename);
 
   string idString;

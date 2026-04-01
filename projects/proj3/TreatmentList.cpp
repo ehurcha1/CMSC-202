@@ -18,10 +18,10 @@ using namespace std;
 // Desc - Default constructor; initializes empty list
 // Preconditions - None
 // Postconditions - Empty list is created
-TreatmentList::TreatmentList() { // Initialize empty list
-  m_head = nullptr;              // Start with no nodes
+TreatmentList::TreatmentList() {
+  m_head = nullptr; // Start with no nodes
   m_tail = nullptr;
-  m_size = 0; // initialize size to zero to clear mem
+  m_size = 0; // Set zero
 }
 
 // Name - ~TreatmentList
@@ -37,16 +37,16 @@ TreatmentList::~TreatmentList() {
 // Preconditions - Valid PatientTreatment provided
 // Postconditions - Size increases by one
 void TreatmentList::PushBack(PatientTreatment item) {
-  Node *newNode = new Node(item); // Create new node with item
+  Node *newNode = new Node(item); // Create new node
 
-  if (IsEmpty()) { // If list is empty, new node becomes head and tail
+  if (IsEmpty()) { // If list is empty new node
     m_head = newNode;
     m_tail = newNode;
-  } else { // Otherwise, append to end and update tail
+  } else { // Append to end and update
     m_tail->SetNext(newNode);
     m_tail = newNode;
   }
-  m_size++; // Increase size by one
+  m_size++;
 }
 
 // Name - IsEmpty
@@ -62,14 +62,14 @@ bool TreatmentList::IsEmpty() {
 // Preconditions - None
 // Postconditions - Returns the size of the list
 int TreatmentList::Count() {
-  return m_size; // Return the number of treatments in the list
+  return m_size; // Return the number of treatments in list
 }
 
 // Name - ComputeTotalCost
 // Desc - Sums all treatment total costs in the list
 // Preconditions - None
 // Postconditions - Returns the total cost of all treatments
-double TreatmentList::ComputeTotalCost() {
+double TreatmentList::ComputeTotalCost() { // Sum up total cost
   double total = 0.0;
   Node *current = m_head;
   while (current != nullptr) {
@@ -83,7 +83,7 @@ double TreatmentList::ComputeTotalCost() {
 // Desc - Deletes all nodes and resets size
 // Preconditions - None
 // Postconditions - All nodes are deleted; size is reset to zero
-void TreatmentList::Clear() {
+void TreatmentList::Clear() { // Free nodes
   Node *current = m_head;
   while (current != nullptr) {
     Node *temp = current;
@@ -100,15 +100,15 @@ void TreatmentList::Clear() {
 // Preconditions - Valid index
 // Postconditions - Returns a copy of the item; returns empty PatientTreatment
 // if out-of-bounds
-PatientTreatment TreatmentList::At(int index) {
+PatientTreatment TreatmentList::At(int index) { // Return treatment
   if (index < 0 || index >= m_size) {
-    return PatientTreatment(); // Return empty if out-of-bounds
+    return PatientTreatment(); // Return empty if invalid
   }
   Node *current = m_head;
   for (int i = 0; i < index; i++) {
     current = current->GetNext();
   }
-  return current->GetData(); // Return a copy of the data at the index
+  return current->GetData(); // Return data at the index
 }
 
 // Name - RemoveAt
@@ -116,9 +116,9 @@ PatientTreatment TreatmentList::At(int index) {
 // Preconditions - Valid index
 // Postconditions - Returns true if removed; size decreases one; returns false
 // if out-of-bounds
-bool TreatmentList::RemoveAt(int index) {
+bool TreatmentList::RemoveAt(int index) { // Remove treatment
   if (index < 0 || index >= m_size) {
-    return false; // Invalid index
+    return false;
   }
   Node *current = m_head;
   Node *previous = nullptr;
@@ -126,12 +126,12 @@ bool TreatmentList::RemoveAt(int index) {
     previous = current;
     current = current->GetNext();
   }
-  if (previous == nullptr) { // Removing head
+  if (previous == nullptr) {
     m_head = current->GetNext();
   } else {
     previous->SetNext(current->GetNext());
   }
-  if (current == m_tail) { // Removing tail
+  if (current == m_tail) {
     m_tail = previous;
   }
   delete current; // Free the removed node
