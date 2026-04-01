@@ -1,3 +1,17 @@
+/*****************************************
+** File: TriageSystem.cpp
+** Project: CMSC 202 Project 3, Spring 2026
+** Author: Elliot Hurchalla
+** Date: 3/31/26
+** Section: 14
+** E-mail: ehurcha1@umbc.edu
+**
+** This file implements the TriageSystem class.
+** This class manages the ER triage system, including patient records and
+* treatments.
+**
+******************************************/
+
 #include "TriageSystem.h"
 
 void TriageSystem::ShowTriageMenu() {

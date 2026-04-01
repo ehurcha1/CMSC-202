@@ -1,3 +1,16 @@
+/*****************************************
+** File: TreatmentList.cpp
+** Project: CMSC 202 Project 3, Spring 2026
+** Author: Elliot Hurchalla
+** Date: 3/30/26
+** Section: 14
+** E-mail: ehurcha1@umbc.edu
+**
+** This file implements the TreatmentList class.
+** This class manages a linked list of PatientTreatment objects.
+**
+******************************************/
+
 #include "TreatmentList.h"
 using namespace std;
 

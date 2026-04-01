@@ -1,3 +1,16 @@
+/*****************************************
+** File: Patient.cpp
+** Project: CMSC 202 Project 3, Spring 2026
+** Author: Elliot Hurchalla
+** Date: 3/31/26
+** Section: 14
+** E-mail: ehurcha1@umbc.edu
+**
+** This file implements the Patient class.
+** This class manages a patient's treatments and costs.
+**
+******************************************/
+
 #include "Patient.h"
 using namespace std;
 
@@ -93,6 +106,7 @@ bool Patient::RemoveAt(int index) { return m_treatments.RemoveAt(index); }
 // Postconditions - m_subtotal, m_facilityFee, and m_total updated
 void Patient::RecomputeTotals() {
   m_subtotal = m_treatments.ComputeTotalCost(); // Sum of treatment costs
-  m_facilityFee = m_subtotal * FACILITY_FEE_RATE; // Facility fee is 15% of subtotal
+  m_facilityFee =
+      m_subtotal * FACILITY_FEE_RATE;   // Facility fee is 15% of subtotal
   m_total = m_subtotal + m_facilityFee; // Total is subtotal plus facility fee
 }
