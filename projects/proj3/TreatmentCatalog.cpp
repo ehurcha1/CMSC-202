@@ -26,9 +26,9 @@ void TreatmentCatalog::LoadCatalog(string filename) {
   string name;
   string costString;
 
-  while (getline(inputFile, idString, ',')) { // Read id
-    getline(inputFile, name, ',');            // Read name
-    getline(inputFile, costString);           // Read cost
+  while (getline(inputFile, idString, ',')) {
+    getline(inputFile, name, ',');
+    getline(inputFile, costString);
 
     int id = stoi(idString);        // Convert id to int
     double cost = stod(costString); // Convert cost to double
@@ -42,9 +42,9 @@ void TreatmentCatalog::LoadCatalog(string filename) {
 // Desc - Prints all treatments as a formatted table
 // Preconditions - Catalog loaded
 // Postconditions - Treatments printed to console
-void TreatmentCatalog::PrintCatalog() {              // Print header
-  cout << left << setw(WID_ID) << "ID"               // Id column aligned left
-       << left << setw(WID_NAME) << "Treatment Name" // Name column aligned left
+void TreatmentCatalog::PrintCatalog() {         // Print header
+  cout << left << setw(WID_ID) << "ID"          // Id column aligned left
+       << left << setw(WID_NAME) << "Treatment" // Name column aligned left
        << right << setw(WID_COST) << "Cost"
        << endl; // Cost column aligned right
   cout << string(WID_ID + WID_NAME + WID_COST, '-')
@@ -54,7 +54,7 @@ void TreatmentCatalog::PrintCatalog() {              // Print header
     const Treatment &t = m_treatments[i];     // Reference to current treatment
     cout << left << setw(WID_ID) << t.GetId() // Id aligned left
          << left << setw(WID_NAME) << t.GetName() // Name aligned left
-         << right << setw(WID_COST) << fixed << setprecision(2) << t.GetCost()
-         << endl; // Cost aligned right
+         << "$" << right << setw(WID_COST - 1) << fixed << setprecision(2)
+         << t.GetCost() << endl; // Cost aligned right with $ prefix
   }
 };
