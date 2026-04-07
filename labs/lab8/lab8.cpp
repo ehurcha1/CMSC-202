@@ -9,10 +9,12 @@
 The train has no cars!
 No cars to remove
 This train has 4 cars.
-ENGINE (START)-> Baggage Car (Passengers: 0) -> Dining Car (Passengers: 20) -> Lounge Car (Passengers: 13) -> Coach Passenger Car (Passengers: 35) -> CABOOSE (END)
+ENGINE (START)-> Baggage Car (Passengers: 0) -> Dining Car (Passengers: 20) -> 
+Lounge Car (Passengers: 13) -> Coach Passenger Car (Passengers: 35) -> CABOOSE (END)
 
 This train has 2 cars.
-ENGINE (START)-> Lounge Car (Passengers: 13) -> Coach Passenger Car (Passengers: 35) -> CABOOSE (END)*/
+ENGINE (START)-> Lounge Car (Passengers: 13) -> Coach Passenger Car (Passengers: 35)
+-> CABOOSE (END)*/
 
 #include <iostream>
 #include <string>
