@@ -1,5 +1,4 @@
 #include "TriageSystem.h"
-#include <iostream>
 using namespace std;
 
 const string TREATMENTS_FILE = "treatments.txt";
