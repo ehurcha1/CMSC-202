@@ -1,0 +1,1438 @@
+Welcome to UMBC Kingdom Rush!
+Defend the realm against the Orc horde!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+0
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+7
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+** Location 2 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+** Location 3 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+2
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+0
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+4
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+2
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+1
+Where would you like to place the tower? (1-3)
+1
+Archer Tower built at location 1!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+None
+
+** Location 2 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+** Location 3 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 1 begins! ===
+A Orc marches toward the kingdom!
+The enemy horde advances!
+=== Wave 1 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+
+** Location 2 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+** Location 3 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 2 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The enemy horde advances!
+=== Wave 2 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+2
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+3
+Where would you like to place the tower? (1-3)
+2
+Artillery Tower built at location 2!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+2
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+2
+Not enough gold!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      3
+Towers Deployed:    2
+Current Gold:       3
+Kingdom Health:     100
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 1
+<< Enemies >>
+None
+
+** Location 3 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 3 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The enemy horde advances!
+=== Wave 3 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 1
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+
+** Location 3 **
+-- Towers --
+None
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      4
+Towers Deployed:    2
+Current Gold:       4
+Kingdom Health:     100
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+2
+
+Which tower would you like to build?
+1. Archer Tower  (Cost: 2 gold)
+2. Mage Tower    (Cost: 4 gold)
+3. Artillery     (Cost: 6 gold)
+4. Cancel
+2
+Where would you like to place the tower? (1-3)
+3
+Mage Tower built at location 3!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 4 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The enemy horde advances!
+=== Wave 4 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      5
+Towers Deployed:    3
+Current Gold:       2
+Kingdom Health:     100
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 1
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+
+** Location 3 **
+-- Towers --
+1. Mage Tower: Location 3  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+3
+
+Which tower would you like to upgrade? (1-3)
+1. Archer Tower: Location 1  Damage: 1
+2. Artillery Tower: Location 2  Damage: 1
+3. Mage Tower: Location 3  Damage: 1
+2
+Artillery Tower at location 2 upgraded!
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 3
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+
+** Location 3 **
+-- Towers --
+1. Mage Tower: Location 3  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 5 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The arcane energy echoes back!
+The enemy horde advances!
+=== Wave 5 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+Enemy: Orc Knight  HP: 5
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 3
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+
+** Location 3 **
+-- Towers --
+1. Mage Tower: Location 3  Damage: 1
+<< Enemies >>
+None
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 6 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The enemy horde advances!
+=== Wave 6 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+Enemy: Orc Knight  HP: 5
+Enemy: Orc Lord  HP: 6
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 3
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+Enemy: Orc Knight  HP: 5
+
+** Location 3 **
+-- Towers --
+1. Mage Tower: Location 3  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 7 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The arcane energy echoes back!
+The enemy horde advances!
+=== Wave 7 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 8 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The enemy horde advances!
+=== Wave 8 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+1
+
+** Location 1 **
+-- Towers --
+1. Archer Tower: Location 1  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+Enemy: Orc Knight  HP: 5
+Enemy: Orc Lord  HP: 6
+Enemy: Orc Lord  HP: 7
+Enemy: Orc Lord  HP: 8
+
+** Location 2 **
+-- Towers --
+1. Artillery Tower: Location 2  Damage: 3
+<< Enemies >>
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+Enemy: Orc Captain  HP: 4
+Enemy: Orc Knight  HP: 5
+Enemy: Orc Lord  HP: 6
+Enemy: Orc Lord  HP: 7
+
+** Location 3 **
+-- Towers --
+1. Mage Tower: Location 3  Damage: 1
+<< Enemies >>
+Enemy: Orc  HP: 1
+Enemy: Strong Orc  HP: 2
+Enemy: Orc Warrior  HP: 3
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 9 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+=== Wave 9 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      10
+Towers Deployed:    3
+Current Gold:       70
+Kingdom Health:     99
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 10 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 10 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      11
+Towers Deployed:    3
+Current Gold:       98
+Kingdom Health:     96
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 11 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 11 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      12
+Towers Deployed:    3
+Current Gold:       131
+Kingdom Health:     90
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 12 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Orc Captain breached the gates! Kingdom takes 4 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 12 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      13
+Towers Deployed:    3
+Current Gold:       169
+Kingdom Health:     80
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 13 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Orc Captain breached the gates! Kingdom takes 4 damage!
+A Orc Knight breached the gates! Kingdom takes 5 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 13 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      14
+Towers Deployed:    3
+Current Gold:       212
+Kingdom Health:     65
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 14 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 9)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Orc Captain breached the gates! Kingdom takes 4 damage!
+A Orc Knight breached the gates! Kingdom takes 5 damage!
+A Orc Lord breached the gates! Kingdom takes 6 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 14 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      15
+Towers Deployed:    3
+Current Gold:       260
+Kingdom Health:     44
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 15 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 9)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 10)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Orc Captain breached the gates! Kingdom takes 4 damage!
+A Orc Knight breached the gates! Kingdom takes 5 damage!
+A Orc Lord breached the gates! Kingdom takes 6 damage!
+A Orc Lord breached the gates! Kingdom takes 7 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 15 complete! ===
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+5
+
+** KINGDOM STATUS **
+Current Round:      16
+Towers Deployed:    3
+Current Gold:       313
+Kingdom Health:     16
+
+What would you like to do?
+1. View Map
+2. Build New Tower
+3. Upgrade Existing Tower
+4. Progress Round
+5. Check Kingdom Status
+6. Quit
+4
+
+=== Wave 16 begins! ===
+A Orc marches toward the kingdom!
+A Strong Orc marches toward the kingdom!
+A Orc Warrior marches toward the kingdom!
+A Orc Captain marches toward the kingdom!
+A Orc Knight marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+A Orc Lord marches toward the kingdom!
+The Archer Tower fires an arrow!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Artillery Tower launches a boulder! BOOM!
+The Strong Orc takes 3 damage!
+The Strong Orc has been defeated!
+The Orc Warrior takes 3 damage!
+The Orc Warrior has been defeated!
+The Orc Captain takes 3 damage!
+The Orc Captain is stripped down to a Orc!
+The Orc Knight takes 3 damage!
+The Orc Knight is stripped down to a Strong Orc!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Warrior!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Captain!
+The Orc Lord takes 3 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 9)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 10)
+The Orc Lord takes 3 damage!
+The Orc Lord staggers but fights on. (HP: 11)
+The Mage Tower launches an arcane bolt!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 9)
+The arcane energy echoes back!
+The Orc takes 1 damage!
+The Orc has been defeated!
+The Strong Orc takes 1 damage!
+The Strong Orc is stripped down to a Orc!
+The Orc Warrior takes 1 damage!
+The Orc Warrior is stripped down to a Strong Orc!
+The Orc Captain takes 1 damage!
+The Orc Captain is stripped down to a Orc Warrior!
+The Orc Knight takes 1 damage!
+The Orc Knight is stripped down to a Orc Captain!
+The Orc Lord takes 1 damage!
+The Orc Lord is stripped down to a Orc Knight!
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 6)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 7)
+The Orc Lord takes 1 damage!
+The Orc Lord staggers but fights on. (HP: 8)
+The enemy horde advances!
+A Orc breached the gates! Kingdom takes 1 damage!
+A Orc Warrior breached the gates! Kingdom takes 3 damage!
+A Orc Captain breached the gates! Kingdom takes 4 damage!
+A Orc Knight breached the gates! Kingdom takes 5 damage!
+A Orc Lord breached the gates! Kingdom takes 6 damage!
+A Orc Lord breached the gates! Kingdom takes 7 damage!
+A Orc Lord breached the gates! Kingdom takes 8 damage!
+A Strong Orc breached the gates! Kingdom takes 2 damage!
+=== Wave 16 complete! ===
+The kingdom has fallen. Game over.
+The kingdom thanks you for your service!
