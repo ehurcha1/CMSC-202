@@ -7,9 +7,9 @@
 #ifndef ENEMY_H // Header Guards
 #define ENEMY_H // Header Guards
 
-#include <string>
-#include <iostream>
 #include <iomanip>
+#include <iostream>
+#include <string>
 using namespace std;
 
 // Abstract base class for all enemies that march down the path.
@@ -78,7 +78,7 @@ public:
   //        in the format: "Enemy: <tier> Health: <health>"
   // Preconditions - Enemy object exists
   // Postconditions - No changes to Enemy; output stream returned
-  friend ostream& operator<<(ostream&, Enemy&);
+  friend ostream &operator<<(ostream &, Enemy &);
 
 private:
   int m_health;   // Current health / armor tier
