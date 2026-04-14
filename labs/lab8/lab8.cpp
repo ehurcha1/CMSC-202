@@ -40,7 +40,8 @@ private:
 };
 
 LinkedList::LinkedList() { // Constructor for linked list
-  m_head = nullptr; // set all member vars to default values
+ m_size = 0;
+ m_head = nullptr; // set all member vars to default values
 }
 
 LinkedList::~LinkedList() { // Destructor for linked list
@@ -66,6 +67,7 @@ void LinkedList::InsertEnd(string name, int passengers) {
     }
     cur->m_next = newNode; // link the (old) last node to the new one
   }
+  m_size++; //I ADDED THIS TO INCREMEMNT THE CARS
 }
 
 void LinkedList::RemoveFront() {
@@ -100,7 +102,7 @@ void LinkedList::Display() {
     cout << "This train has " << m_size << " cars." << endl;
     cout << "ENGINE (START)->";
     Node* temp = m_head; // temp iterates list to print m_name and m_passengers for each Node
-    while (temp == nullptr) {
+    while (temp != nullptr) {
       cout << temp->m_carType 
            << " (Passengers: " << temp->m_numPassengers << ") "
            << "->";
