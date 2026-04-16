@@ -23,7 +23,7 @@ int Orc::TakeDamage(int damage) {
     return damage;
   } else {
     cout << "The " << oldTier << " takes " << damage << " damage!" << endl;
-    cout << "The " << GetTier() << " has been defeated" << endl;
+    cout << "The " << oldTier << " has been defeated" << endl;
     return health;
   }
 }
@@ -46,5 +46,7 @@ void Orc::UpdateTier() {
     m_tier = "Orc Knight";
   } else if (health >= 6) {
     m_tier = "Orc Lord";
+  } else {
+    m_tier = "";
   }
 }
