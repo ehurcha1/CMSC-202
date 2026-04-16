@@ -20,4 +20,7 @@ Game::~Game() {
   }
 }
 
-void Game::StartGame() {}
+void Game::StartGame() {
+  cout << "Welcome to UMBC Kingdom Rush!" << endl;
+  cout << "Defend the realm against the Orc horde!" << endl;
+}
