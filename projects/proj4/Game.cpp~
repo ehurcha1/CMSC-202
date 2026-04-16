@@ -19,5 +19,3 @@ Game::~Game() {
     delete m_towers[i];
   }
 }
-
-void Game::StartGame() {}
