@@ -17,8 +17,9 @@ ArcherTower::ArcherTower(string type, int damage, int location)
 int ArcherTower::Attack(vector<Enemy *> enemies) {
   int gold = 0;
   int i = 0;
+  int size = enemies.size();
   bool found = false;
-  while (i < enemies.size() && found == false) {
+  while (i < size && found == false) {
     int hp = enemies[i]->GetHealth();
     int loc = enemies[i]->GetLocation();
     if (hp > 0 && loc == GetLocation()) {

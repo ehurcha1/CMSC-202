@@ -16,9 +16,10 @@ MageTower::MageTower(string type, int damage, int location)
 
 int MageTower::Attack(vector<Enemy *> enemies) {
   int gold = 0;
+  int size = enemies.size();
 
   cout << "The Mage Tower launches an arcane bolt!" << endl;
-  for (int i = 0; i < enemies.size(); i++) {
+  for (int i = 0; i < size; i++) {
     int loc = enemies[i]->GetLocation();
     if (loc == GetLocation() && enemies[i]->GetHealth() > 0) {
       int dam = enemies[i]->TakeDamage(GetDamage());
@@ -27,7 +28,7 @@ int MageTower::Attack(vector<Enemy *> enemies) {
   }
 
   cout << "The arcane energy echoes back!" << endl;
-  for (int i = 0; i < enemies.size(); i++) {
+  for (int i = 0; i < size; i++) {
     int loc = enemies[i]->GetLocation();
     if (loc == GetLocation() && enemies[i]->GetHealth() > 0) {
       int dam = enemies[i]->TakeDamage(GetDamage());
