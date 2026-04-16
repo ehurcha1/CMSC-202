@@ -25,7 +25,7 @@ void Ski::DisplayItems() {
 
 // SportActivity Function to be implemented by students.
 // Should override parent class SportActivity()
-void SportActivity() {
+void Ski::SportActivity() {
   cout << "They ski down at top speed with snow flying behind them!" <<endl;
 }
 
