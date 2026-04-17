@@ -51,7 +51,7 @@ ostream &operator<<(ostream &out, Tower &myTower) {
   */
 
   if (type == "archer") {
-    type = "Mage";
+    type = "Archer";
   } else if (type == "mage") {
     type = "Mage";
   } else if (type == "artillery") {
