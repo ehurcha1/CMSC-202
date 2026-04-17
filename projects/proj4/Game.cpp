@@ -1,13 +1,24 @@
+/***********************************************************
+ ** File:    Game.cpp
+ ** Project: CMSC 202 - Project 4 (Kingdom Rush Edition)
+ ** Author:  Elliot Hurchalla
+ ** Date:    4/16/26
+ ** Section: 14
+ ** E-mail:  ehurcha1@umbc.edu
+ ** This file manages the games components and logic.
+ ***********************************************************/
+
 #include "Game.h"
+#include <iostream>
 using namespace std;
 
-Game::Game() {
+Game::Game() { // defaults
   m_curRound = 1;
   m_curGold = 10;
   m_curLife = 100;
 }
 
-Game::~Game() {
+Game::~Game() { // deletes all towers and enemies
   int eSize = m_enemies.size();
   int tSize = m_towers.size();
 
@@ -20,7 +31,8 @@ Game::~Game() {
   }
 }
 
-void Game::StartGame() {
+void Game::StartGame() { // starts the game and runs the main menu until the
+                         // player quits or loses
   cout << "Welcome to UMBC Kingdom Rush!" << endl;
   cout << "Defend the realm against the Orc horde!" << endl;
 
@@ -28,7 +40,7 @@ void Game::StartGame() {
   }
 }
 
-int Game::MainMenu() {
+int Game::MainMenu() { // displays the main menu and returns the player's choice
   int choice = 0;
 
   cout << "What would you like to do?" << endl;
@@ -100,7 +112,7 @@ void Game::PrintMap() {
   }
 }
 
-void Game::Stats() {
+void Game::Stats() { // displays the current status of the kingdom
   cout << endl;
   cout << "** KINGDOM STATUS **" << endl;
   cout << "Current Round:      " << m_curRound << endl;
@@ -110,7 +122,8 @@ void Game::Stats() {
   cout << endl;
 }
 
-void Game::BuyTower() {
+void Game::BuyTower() { // allows the player to buy a new tower and place it on
+                        // the map
   int choice = 0;
 
   do {
@@ -141,7 +154,8 @@ void Game::BuyTower() {
   }
 }
 
-void Game::PlaceTower(int choice) {
+void Game::PlaceTower(int choice) { // places the tower on the map based on the
+                                    // player's choice and location input
   int loc;
   cout << "Where would you like to place the tower? (1-3)" << endl;
   cin >> loc;
@@ -165,7 +179,7 @@ void Game::PlaceTower(int choice) {
   m_towers.push_back(t);
 }
 
-void Game::UpgradeTower() {
+void Game::UpgradeTower() { // allows the player to upgrade an existing tower
   int tSize = m_towers.size();
 
   if (tSize == 0) {
@@ -199,18 +213,21 @@ void Game::UpgradeTower() {
   }
 }
 
-void Game::PlayRound() {
+void Game::PlayRound() { // plays a round of the game and cycles through all
+                         // phases of the round
+  cout << endl;
   cout << "=== Wave " << m_curRound << " begins! ===" << endl;
   SpawnEnemies();
+  MoveEnemies();
   ResolveCombat();
   RemoveDefeated();
-  MoveEnemies();
   CheckPath();
   cout << "=== Wave " << m_curRound << " complete! ===" << endl;
+  cout << endl;
   m_curRound++;
 }
 
-void Game::SpawnEnemies() {
+void Game::SpawnEnemies() { // spawns enemies based on the current round
   for (int i = 1; i <= m_curRound; i++) {
     Orc *orc = new Orc(i, START_ENEMY);
     m_enemies.push_back(orc);
@@ -218,14 +235,14 @@ void Game::SpawnEnemies() {
   }
 }
 
-void Game::ResolveCombat() {
+void Game::ResolveCombat() { // resolves combat between towers and enemies
   int tSize = m_towers.size();
   for (int i = 0; i < tSize; i++) {
     m_curGold += m_towers[i]->Attack(m_enemies); // gold earned from attacks
   }
 }
 
-void Game::RemoveDefeated() {
+void Game::RemoveDefeated() { // removes defeated enemies from the game
   for (int pass = 0; pass < 5;
        pass++) { // runs 5 times to ensure all dead orccs are deleated
     for (int i = 0; i < (int)m_enemies.size(); i++) {
@@ -237,7 +254,7 @@ void Game::RemoveDefeated() {
   }
 }
 
-void Game::MoveEnemies() {
+void Game::MoveEnemies() { // moves all enemies forward on the path
   int eSize = m_enemies.size();
   for (int i = 0; i < eSize; i++) {
     int newLoc = m_enemies[i]->GetLocation() + 1;
@@ -246,15 +263,13 @@ void Game::MoveEnemies() {
   cout << "The enemy horde advances!" << endl;
 }
 
-void Game::CheckPath() {
-  for (int pass = 0; pass < 5; pass++) { // runs 5 times to ensure all orcs who
-                                         // reach the kingdom are deleated
-    for (int i = 0; i < (int)m_enemies.size(); i++) {
-      if (m_enemies[i]->GetLocation() >= PATH_LENGTH) {
-        m_curLife -= m_enemies[i]->GetHealth();
-        delete m_enemies[i];
-        m_enemies.erase(m_enemies.begin() + i);
-      }
+void Game::CheckPath() { // checks if any enemies have reached the end of the
+                         // path
+  for (int i = 0; i < (int)m_enemies.size(); i++) {
+    if (m_enemies[i]->GetLocation() >= PATH_LENGTH) {
+      m_curLife -= m_enemies[i]->GetHealth();
+      delete m_enemies[i];
+      m_enemies.erase(m_enemies.begin() + i);
     }
   }
 }

@@ -1,13 +1,25 @@
+/***********************************************************
+ ** File:    Orc.cpp
+ ** Project: CMSC 202 - Project 4 (Kingdom Rush Edition)
+ ** Author:  Elliot Hurchalla
+ ** Date:    4/16/26
+ ** Section: 14
+ ** E-mail:  ehurcha1@umbc.edu
+ ** This file defines the Orc class and its member functions.
+ ***********************************************************/
+
 #include "Orc.h"
 using namespace std;
 
-Orc::Orc() : Enemy(1, 0) { UpdateTier(); }
+Orc::Orc() : Enemy(1, 0) { UpdateTier(); } // defaults
 
-Orc::Orc(int health, int location) : Enemy(health, location) { UpdateTier(); }
+Orc::Orc(int health, int location) : Enemy(health, location) {
+  UpdateTier();
+} // assigning members
 
-Orc::~Orc() {}
+Orc::~Orc() {} // destructor
 
-int Orc::TakeDamage(int damage) {
+int Orc::TakeDamage(int damage) { // takes damage and returns gold earned
   string oldTier;
   oldTier = GetTier();
   int health = GetHealth();
@@ -28,9 +40,9 @@ int Orc::TakeDamage(int damage) {
   }
 }
 
-string Orc::GetTier() { return m_tier; }
+string Orc::GetTier() { return m_tier; } // returns the tier of the orc
 
-void Orc::UpdateTier() {
+void Orc::UpdateTier() { // updates the tier of the orc based on health
   int health;
   health = GetHealth();
 
