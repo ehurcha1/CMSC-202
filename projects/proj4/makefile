@@ -24,16 +24,3 @@ MageTower.o: MageTower.cpp MageTower.h Tower.h
 
 Artillery.o: Artillery.cpp Artillery.h Tower.h
 	$(CXX) $(CXXFLAGS) -c Artillery.cpp
-
-clean:
-	rm -f *.o proj4
-	rm *~
-
-run:
-	./proj4
-
-val:
-	valgrind ./proj4
-
-submit:
-	cp Enemy.h Enemy.cpp Orc.h Orc.cpp Tower.h Tower.cpp ArcherTower.h ArcherTower.cpp MageTower.h MageTower.cpp Artillery.h Artillery.cpp Game.h Game.cpp proj4.cpp ~/cs202proj/proj4
