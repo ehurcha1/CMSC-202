@@ -42,7 +42,7 @@ void Game::StartGame() { // starts the game and runs the main menu until the
 
 int Game::MainMenu() { // displays the main menu and returns the player's choice
   int choice = 0;
-
+  cout << endl;
   cout << "What would you like to do?" << endl;
   cout << "1. View Map" << endl;
   cout << "2. Build New Tower" << endl;
